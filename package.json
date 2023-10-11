@@ -2,7 +2,8 @@
   "name": "api-node-typescript",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Napoleao",
+  "repository": "https://github.com/Napoleao1/api-node-typescript.git",
+  "author": "Napoleao1 <ernaninandoxd@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
@@ -10,10 +11,10 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.18",
+    "@typescript-eslint/eslint-plugin": "^6.7.5",
+    "@typescript-eslint/parser": "^6.7.5",
+    "eslint": "^8.51.0",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.2.2"
-  },
-  "scripts": {
-    "start": "ts-node-dev src/index.ts"
   }
 }
